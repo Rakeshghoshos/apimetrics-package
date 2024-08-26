@@ -1,0 +1,26 @@
+{
+  "name": "analytics-apimetrics",
+  "version": "1.0.1",
+  "description": "package for apis tracking and metrics for backend proformance",
+  "main": "./dist/index.cjs.js",
+  "module": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.cjs.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "api-metrics"
+  ],
+  "author": "rakesh ghosh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "axios": "^1.7.3"
+  }
+}
