@@ -18,7 +18,7 @@ class ApiMetricsClass {
 
   static async sendMetrics(metrics:Metrics) {
     try {
-      const response = await axios.post('https://apimetrics-backend.onrender.com/data', {
+      const response = await axios.post('https://apimetrics-backend.vercel.app/data', {
         metrics:metrics,
       });
 
